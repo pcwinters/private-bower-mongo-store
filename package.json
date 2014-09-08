@@ -1,0 +1,42 @@
+{
+  "name": "private-bower-mongo-store",
+  "version": "0.0.1",
+  "description": "https://github.com/pcw216/private-bower-mongo-store",
+  "homepage": "https://github.com/pcw216/private-bower-mongo-store",
+  "bugs": "https://github.com/pcw216/private-bower-mongo-store/issues",
+  "author": {
+    "name": "Patrick Winters",
+    "email": "pwinters@rallydev.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcw216/private-bower-mongo-store"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt test --verbose"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-mocha-test": "~0.6.2",
+    "should": "~1.2.2",
+    "sinon": "~1.7.3",
+    "mocha": "~1.12.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9"
+  },
+  "dependencies": {
+    "connect-once": "^0.1.0",
+    "mongodb": "^1.4.10",
+    "lodash": "^2.4.1"
+  },
+  "peerDependencies": {
+    "private-bower": ">0.5"
+  }
+}
